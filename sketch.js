@@ -68,7 +68,7 @@ function draw() {
         bright = 0;
       } else {
         // Gosh, we could make fancy colors here if we wanted
-        pixels[pix + 0] = bright;
+        pixels[pix + 0] = red;
         pixels[pix + 1] = bright;
         pixels[pix + 2] = bright;
         pixels[pix + 3] = 255;
